@@ -1,0 +1,485 @@
+*{
+    margin:0;
+    padding:0; 
+    box-sizing :border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    
+    font-weight: 500;
+    font-size: 31px;
+
+
+}
+.text-primary{
+
+    color: #00d2b5!important;
+
+
+}
+.container{
+    width: 70%;
+}
+
+
+.video-container img{
+    object-fit: cover;
+    width:100% ;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.home-details h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 126px;
+    padding-top: 4px;
+
+}
+h2.title-text{
+    font-size: 40px;
+    font-weight:900;
+    padding-right: 126px;
+    padding-top: 4px;
+
+}
+.home-details p{
+    font-size: medium;
+}
+.home-details button{
+    border-radius: 50px;
+    padding: 10px 30px;
+    background-color: #00d2b5;
+    color: white;
+    border: 2px solid #00d2b5 ;
+    cursor: pointer;
+}
+.home-details button:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid #00d2b5;
+}
+iframe.hide{
+  visibility: hidden;
+}
+.row-inside{
+
+    width: 50px;
+    height: 50px;
+    background-color: #00d2b5;
+    border-radius: 50px;
+}
+.material-icons{
+    color: white;
+    padding: 7px 7px;
+    background-color: transparent;
+    font-size: 36px;
+}
+
+/* card-design */
+.card{
+    border-radius: 5px;
+    border: none;
+    transition: 0.1s;
+}
+
+.card:hover{
+    background-color: #00d2b5;
+    color: white;
+    transform: translateY(-10px);
+   
+}
+
+.col .car-hei{
+
+    height: 100px;
+
+}
+.car-hei h5{
+    
+    font-weight: 200;
+    padding: 20px;
+
+    
+}
+.col .car-he{
+
+    height: 100px;
+
+}
+.car-he h5{
+    
+    font-weight: 200;
+
+
+}
+#image2:hover{
+
+    cursor: pointer;
+
+}
+#image3:hover{
+
+    cursor: pointer;
+
+}
+#image4:hover{
+
+    cursor: pointer;
+
+}
+#image5:hover{
+
+    cursor: pointer;
+
+}
+
+
+/* chat styling */
+::-webkit-scrollbar {
+    background: white;
+    border-radius: 4px;
+    height: 8px;
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(192, 192, 192);
+    border-radius: 4px;
+  }
+
+
+.chat-container{
+
+    overflow-y: scroll;
+    height: 550px;   
+    width:100%; 
+    padding: 20px 0;
+}
+
+.chat-right p{
+    display:block;
+    background:#00d2b5;
+    padding: 18px;
+    border-radius: 33px;
+    width: fit-content;
+    color: white;
+    float: right;
+    margin-left: 40px;
+    cursor: pointer;
+
+ 
+}
+.chat-left p{
+    display: inline-block;
+    background:whitesmoke;
+
+    padding: 18px;
+    border-radius: 32px;
+    width: fit-content;
+    color: white;
+    /* float: left; */
+    color: black;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.chat-left:hover{
+    transition: 0.3s;
+
+
+    transform: translateY(10px);
+
+}
+.chat-right:hover{
+    transition: 0.3s;
+
+    transform: translateY(10px);
+
+}
+
+
+
+.address-row{
+    display: flex;
+    padding: 30px;
+
+}
+.mail-row{
+    display: flex;
+    padding: 30px;
+
+}
+.talk-row{
+    display: flex;
+    padding: 30px;
+
+}
+
+.talk-row{
+    display: flex;
+}
+.mail-row{
+    display: flex;
+}
+
+.address-row{
+    margin: 20px;
+}
+.mail-row{
+    margin: 20px;
+}
+.talk-row{
+    margin: 20px;
+}
+.footer{
+    width: 100%;
+    height: fit-content;
+}
+.fab{
+    color:#00d2b5;
+}
+.fab:hover{
+    cursor: pointer;
+    color: #096e61;
+}
+.detailsss:hover{
+
+    cursor: pointer;
+
+}
+/* life at sps */
+/* .circle{
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.circle p{
+    border-radius: 50px;
+    background-color:#00d2b5 ;
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+} */
+
+
+/* .circle::after{
+    content: "";
+    position: absolute;
+    height:45px;
+    top: 30px;
+    width: 3px;
+    background-color: #00d2b5;
+    display: block;
+    left: 24px;
+    bottom: -25px;
+}
+
+.timeline .left-top-box{
+    border-radius: 50px;
+    border: 3px solid #00d2b5;
+    
+}
+.timeline div{
+    height: 40px;
+    
+}
+.timeline .left-top-box{
+    position: relative;
+} */
+
+
+.timeline {
+    border-radius: 15%;
+
+}
+.road{
+
+    border-left: 3px solid #00d2b5;
+    border-bottom: 3px solid #00d2b5;
+    border-bottom-left-radius: 15px;
+    position: relative;
+    /* text-align: center; */
+    width: fit-content;
+    padding: 0 40px;
+    padding-bottom: 20px;
+  
+    
+}
+.road::after{
+
+    content: "1";
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 9px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #00d2b5;
+    left: -21px;
+    color: white;
+    top:-24px;
+
+
+}
+
+.road2{
+    border-right: 3px solid #00d2b5;
+    border-bottom:3px solid #00d2b5;
+    border-top:3px solid #00d2b5 ;
+    border-bottom-right-radius: 15px; 
+    border-top-right-radius: 15px;  
+    width: fit-content;
+    padding: 20px 40px; 
+    position: relative;
+    margin-top: -3px;
+    margin-left: 10%;
+
+}
+.road2::after{
+    content: "2";
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #00d2b5;
+    position: absolute;
+    right: -22px;
+    text-align: center;
+    color: white;
+    padding:9px;
+    top: 33%;
+
+
+}
+.road3{
+
+    border-left: 3px solid #00d2b5;
+    border-top:3px solid #00d2b5 ;
+    border-top-left-radius: 15px;
+    padding: 0px 40px;
+    margin: -2.1px;
+    width: fit-content;
+    position: relative;
+    padding-top: 20px;
+
+
+}
+.road3::after{
+
+    content: "3";
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #00d2b5;
+    position: absolute;
+    text-align: center;
+    left: -22px;
+    padding: 9px;
+    color: white;
+    bottom:0;
+}
+/* life at sps ends */
+/* 3 process to join sps starts*/
+.road4{
+    border-right: 3px solid #00d2b5;
+    border-bottom: 3px solid #00d2b5;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    /* text-align: center; */
+    width: 90%;
+    padding: 0 40px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+
+}
+.road4::after{
+
+    content: "1";
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 9px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #00d2b5;
+    right: -20px;
+    top: 0;
+    color: white;
+}
+
+.road5{
+
+    border-left: 3px solid #00d2b5;
+    border-bottom:3px solid #00d2b5;
+    border-top:3px solid #00d2b5 ;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;  
+    width: 90%;
+    padding: 20px 40px; 
+    position: relative;
+    margin-top: -2.1px;
+    margin-right: 10%;
+
+}
+
+.road5::after{
+    content: "2";
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #00d2b5;
+    position: absolute;
+    left: -22px;
+    text-align: center;
+    color: white;
+    padding:9px;
+    top: 36%;
+
+
+}
+.road6{
+
+    border-right: 3px solid #00d2b5;
+    border-top:3px solid #00d2b5 ;
+    border-top-right-radius: 15px;
+    padding: 0px 40px;
+    margin: -2.1px;
+    width: 90%;
+    position: relative;
+    padding-top: 10px;
+    margin-left: 10%;
+
+
+
+}
+.road6::after{
+
+    content: "3";
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #00d2b5;
+    position: absolute;
+    text-align: center;
+    right: -20px;
+    padding: 9px;
+    color: white;
+    top:100%
+}
+
+
+/* 3 process to join sps ends*/
+
+
+
+
+
+
+
+
