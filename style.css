@@ -250,69 +250,26 @@ iframe.hide{
     cursor: pointer;
 
 }
-/* life at sps */
-/* .circle{
-
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-}
-
-.circle p{
-    border-radius: 50px;
-    background-color:#00d2b5 ;
-    height: 50px;
-    width: 50px;
-    color: white;
-    text-align: center;
-} */
-
-
-/* .circle::after{
-    content: "";
-    position: absolute;
-    height:45px;
-    top: 30px;
-    width: 3px;
-    background-color: #00d2b5;
-    display: block;
-    left: 24px;
-    bottom: -25px;
-}
-
-.timeline .left-top-box{
-    border-radius: 50px;
-    border: 3px solid #00d2b5;
-    
-}
-.timeline div{
-    height: 40px;
-    
-}
-.timeline .left-top-box{
-    position: relative;
-} */
 
 
 .timeline {
     border-radius: 15%;
 
 }
-.road{
+.line{
 
     border-left: 3px solid #00d2b5;
     border-bottom: 3px solid #00d2b5;
     border-bottom-left-radius: 15px;
     position: relative;
-    /* text-align: center; */
+    text-align: center;
     width: fit-content;
     padding: 0 40px;
     padding-bottom: 20px;
   
     
 }
-.road::after{
+.line::before{
 
     content: "1";
     height: 40px;
@@ -322,14 +279,14 @@ iframe.hide{
     border-radius: 50px;
     position: absolute;
     background-color: #00d2b5;
-    left: -21px;
+    left: -20px;
     color: white;
-    top:-24px;
+    
 
 
 }
 
-.road2{
+.line2{
     border-right: 3px solid #00d2b5;
     border-bottom:3px solid #00d2b5;
     border-top:3px solid #00d2b5 ;
@@ -342,7 +299,7 @@ iframe.hide{
     margin-left: 10%;
 
 }
-.road2::after{
+.line2::after{
     content: "2";
     height: 40px;
     width: 40px;
@@ -357,7 +314,7 @@ iframe.hide{
 
 
 }
-.road3{
+.line3{
 
     border-left: 3px solid #00d2b5;
     border-top:3px solid #00d2b5 ;
@@ -370,7 +327,7 @@ iframe.hide{
 
 
 }
-.road3::after{
+.line3::after{
 
     content: "3";
     width: 40px;
@@ -386,7 +343,7 @@ iframe.hide{
 }
 /* life at sps ends */
 /* 3 process to join sps starts*/
-.road4{
+.line4{
     border-right: 3px solid #00d2b5;
     border-bottom: 3px solid #00d2b5;
     border-bottom-right-radius: 15px;
@@ -398,7 +355,7 @@ iframe.hide{
     margin-left: 10%;
 
 }
-.road4::after{
+.line4::after{
 
     content: "1";
     height: 40px;
@@ -413,7 +370,7 @@ iframe.hide{
     color: white;
 }
 
-.road5{
+.line5{
 
     border-left: 3px solid #00d2b5;
     border-bottom:3px solid #00d2b5;
@@ -428,7 +385,7 @@ iframe.hide{
 
 }
 
-.road5::after{
+.line5::after{
     content: "2";
     height: 40px;
     width: 40px;
@@ -443,7 +400,7 @@ iframe.hide{
 
 
 }
-.road6{
+.line6{
 
     border-right: 3px solid #00d2b5;
     border-top:3px solid #00d2b5 ;
@@ -458,7 +415,7 @@ iframe.hide{
 
 
 }
-.road6::after{
+.line6::after{
 
     content: "3";
     width: 40px;
@@ -472,11 +429,25 @@ iframe.hide{
     color: white;
     top:100%
 }
-
-
-/* 3 process to join sps ends*/
-
-
+#myBtn {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#00d2b5; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
 
 
 
