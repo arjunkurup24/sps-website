@@ -1,21 +1,43 @@
-mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+document.addEventListener("scroll",()=>{
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
+  var rootElement=document.documentElement;
+
+  if(rootElement.scrollTop >= 300){
+    // mybutton.style.display="block";
+    console.log("hello")
+   document.getElementById("myBtn").style.display="block"
+
   }
-}
+  else{
+    document.getElementById("myBtn").style.display="none"
+ 
+  }
+  console.log(rootElement.scrollTop)
+ 
+})
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+// console.log("hello")
+// window.onscroll = function() {scrollFunction()};
+
+// console.log(window.onscroll)
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20) {
+//     mybutton.style.display = "block";
+//   } else {
+//     mybutton.style.display = "none";
+//   }
+// }
+
+// // When the user clicks on the button, scroll to the top of the document
+// function topFunction() {
+//   document.body.scrollTop = 0; // For Safari
+//   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// }
+
+
 function openVideo(image,video){
 
     document.getElementById(image).style.display="none"
@@ -60,5 +82,7 @@ function openVideo5(){
 
 
 }
+
+
 //Get the button:
 
