@@ -42,7 +42,7 @@ body{
 h2.title-text{
     font-size: 40px;
     font-weight:900;
-    padding-right: 126px;
+    /* padding-right: 126px; */
     padding-top: 4px;
 
 }
@@ -84,6 +84,7 @@ iframe.hide{
     border-radius: 5px;
     border: none;
     transition: 0.1s;
+    padding: 20px 0;
 }
 
 .card:hover{
@@ -95,13 +96,13 @@ iframe.hide{
 
 .col .car-hei{
 
-    height: 100px;
+    height: 100%;
 
 }
 .car-hei h5{
     
     font-weight: 200;
-    padding: 20px;
+    /* padding: 20px; */
 
     
 }

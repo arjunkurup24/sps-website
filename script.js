@@ -1,22 +1,28 @@
 
-// When the user scrolls down 20px from the top of the document, show the button
-document.addEventListener("scroll",()=>{
+// // When the user scrolls down 20px from the top of the document, show the button
+// document.addEventListener("scroll",()=>{
 
-  var rootElement=document.documentElement;
+//   var rootElement=document.documentElement;
 
-  if(rootElement.scrollTop >= 300){
-    // mybutton.style.display="block";
-    console.log("hello")
-   document.getElementById("myBtn").style.display="block"
+//   if(rootElement.scrollTop >= 300){
+//     // mybutton.style.display="block";
+//     // console.log("hello")
+//    document.getElementById("myBtn").style.display="block"
 
-  }
-  else{
-    document.getElementById("myBtn").style.display="none"
+//   }
+//   else{
+//     document.getElementById("myBtn").style.display="none"
  
-  }
-  console.log(rootElement.scrollTop)
+//   }
+//   // console.log(rootElement.scrollTop)
  
-})
+// })
+
+// document.getElementById("myBtn").addEventListener("click",()=>{
+//  scrollTo(0,0);
+// //  newButton.style.backgroundImage="red"
+//  console.log("working")
+// })
 
 // console.log("hello")
 // window.onscroll = function() {scrollFunction()};
